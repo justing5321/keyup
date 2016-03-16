@@ -13,6 +13,14 @@
       // The text and input's border color should
       // turn red when the number is negative.
       
+      $('input').keyup(function(){
+       var userInput = $('input').val().length;
+       var userRem = (40 - 'userInput');
+         $('h1').html(userRem);
+         if(userRem)
+       }
+        
+      );
       
       
     });
